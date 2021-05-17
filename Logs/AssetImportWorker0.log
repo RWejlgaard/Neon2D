@@ -1,0 +1,1873 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/pez/Desktop/Neon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50439
+Successfully changed project path to: /Users/pez/Desktop/Neon
+/Users/pez/Desktop/Neon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/pez/Desktop/Neon/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-15 18:19:56.813 Unity[5320:49702] PL3493WQ preferred device: AMD Radeon RX 5700 XT (high power)
+2021-05-15 18:19:56.813 Unity[5320:49702] Metal devices available: 1
+2021-05-15 18:19:56.813 Unity[5320:49702] 0: AMD Radeon RX 5700 XT (high power)
+2021-05-15 18:19:56.814 Unity[5320:49702] Using device AMD Radeon RX 5700 XT (high power)
+Initializing Metal device caps: AMD Radeon RX 5700 XT
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000631 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 36.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.891 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 35.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1979 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.0 MB.
+System memory in use after: 156.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 1.990637 ms (FindLiveObjects: 0.236769 ms CreateObjectMapping: 0.041530 ms MarkObjects: 1.492508 ms  DeleteObjects: 0.219050 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(3ed19842872ea7b4d89a18701fb53194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(3ed19842872ea7b4d89a18701fb53194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c09237ba2ee7bebe6a1c88b6c0cf43a') in 0.272194 seconds
+  Import took 0.274799 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 1.887568 ms (FindLiveObjects: 0.202880 ms CreateObjectMapping: 0.040640 ms MarkObjects: 1.465708 ms  DeleteObjects: 0.177620 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.7 MB.
+System memory in use after: 158.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2429.
+Total: 1.873138 ms (FindLiveObjects: 0.190420 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.415008 ms  DeleteObjects: 0.227370 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000796 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.9 MB.
+System memory in use after: 158.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2433.
+Total: 1.878027 ms (FindLiveObjects: 0.195810 ms CreateObjectMapping: 0.039930 ms MarkObjects: 1.406798 ms  DeleteObjects: 0.234709 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 158.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2437.
+Total: 1.906567 ms (FindLiveObjects: 0.196420 ms CreateObjectMapping: 0.040390 ms MarkObjects: 1.436978 ms  DeleteObjects: 0.232079 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000906 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.3 MB.
+System memory in use after: 159.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2441.
+Total: 1.910668 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.047590 ms MarkObjects: 1.421498 ms  DeleteObjects: 0.236650 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.277312 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(3ed19842872ea7b4d89a18701fb53194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(3ed19842872ea7b4d89a18701fb53194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655bf2fa98b2bf27a574420eadfefe23') in 0.005547 seconds
+  Import took 0.008083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2445.
+Total: 2.010797 ms (FindLiveObjects: 0.204160 ms CreateObjectMapping: 0.040510 ms MarkObjects: 1.515638 ms  DeleteObjects: 0.249789 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000811 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.8 MB.
+System memory in use after: 159.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 1.913497 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.040410 ms MarkObjects: 1.432448 ms  DeleteObjects: 0.240589 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1322.992379 seconds.
+  path: Assets/2DDL/Examples/__Example_Textures/tiles.atlas/Screen Shot 2015-05-03 at 0.11.37.png
+  artifactKey: Guid(c05f00cb5dad04c67aa46d0f6db938fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DDL/Examples/__Example_Textures/tiles.atlas/Screen Shot 2015-05-03 at 0.11.37.png using Guid(c05f00cb5dad04c67aa46d0f6db938fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeeadf035deaa4643e8824cda6c43ef') in 0.818630 seconds
+  Import took 0.822053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2DDL/Examples/__Example_Textures/tiles.atlas/tile1_1.png
+  artifactKey: Guid(84d830b7353f94ac0a00173aa89a0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DDL/Examples/__Example_Textures/tiles.atlas/tile1_1.png using Guid(84d830b7353f94ac0a00173aa89a0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123f9cdd6c1efb97535fdd0e6725a53a') in 0.005560 seconds
+  Import took 0.007986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DDL/Examples/__Example_Textures/tiles.atlas/Screen Shot 2015-05-03 at 0.11.37.png
+  artifactKey: Guid(c05f00cb5dad04c67aa46d0f6db938fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DDL/Examples/__Example_Textures/tiles.atlas/Screen Shot 2015-05-03 at 0.11.37.png using Guid(c05f00cb5dad04c67aa46d0f6db938fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeeadf035deaa4643e8824cda6c43ef') in 0.004113 seconds
+  Import took 0.006263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001817 seconds.
+  path: Assets/2DDL/Examples/__Example_Textures/tiles.atlas/tile1_1.png
+  artifactKey: Guid(84d830b7353f94ac0a00173aa89a0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DDL/Examples/__Example_Textures/tiles.atlas/tile1_1.png using Guid(84d830b7353f94ac0a00173aa89a0200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123f9cdd6c1efb97535fdd0e6725a53a') in 0.003375 seconds
+  Import took 0.005545 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2456.
+Total: 2.528217 ms (FindLiveObjects: 0.205870 ms CreateObjectMapping: 0.043460 ms MarkObjects: 2.028567 ms  DeleteObjects: 0.249420 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000794 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2460.
+Total: 1.925238 ms (FindLiveObjects: 0.204890 ms CreateObjectMapping: 0.040550 ms MarkObjects: 1.436698 ms  DeleteObjects: 0.242390 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2464.
+Total: 2.038427 ms (FindLiveObjects: 0.218139 ms CreateObjectMapping: 0.041450 ms MarkObjects: 1.484228 ms  DeleteObjects: 0.293810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.1 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2468.
+Total: 1.897917 ms (FindLiveObjects: 0.198830 ms CreateObjectMapping: 0.040439 ms MarkObjects: 1.432889 ms  DeleteObjects: 0.225099 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000789 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.4 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2472.
+Total: 1.975707 ms (FindLiveObjects: 0.208780 ms CreateObjectMapping: 0.041140 ms MarkObjects: 1.474978 ms  DeleteObjects: 0.250149 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000796 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.6 MB.
+System memory in use after: 165.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2476.
+Total: 1.993557 ms (FindLiveObjects: 0.224079 ms CreateObjectMapping: 0.041430 ms MarkObjects: 1.452938 ms  DeleteObjects: 0.274360 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.8 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2480.
+Total: 1.916667 ms (FindLiveObjects: 0.181899 ms CreateObjectMapping: 0.042570 ms MarkObjects: 1.457978 ms  DeleteObjects: 0.233520 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.0 MB.
+System memory in use after: 165.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2484.
+Total: 1.923457 ms (FindLiveObjects: 0.208310 ms CreateObjectMapping: 0.040930 ms MarkObjects: 1.437748 ms  DeleteObjects: 0.235739 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2488.
+Total: 1.933368 ms (FindLiveObjects: 0.214170 ms CreateObjectMapping: 0.041350 ms MarkObjects: 1.449418 ms  DeleteObjects: 0.227780 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000983 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.4 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2492.
+Total: 1.918568 ms (FindLiveObjects: 0.207720 ms CreateObjectMapping: 0.041180 ms MarkObjects: 1.434628 ms  DeleteObjects: 0.234430 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000993 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.6 MB.
+System memory in use after: 166.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2496.
+Total: 1.949018 ms (FindLiveObjects: 0.204720 ms CreateObjectMapping: 0.041310 ms MarkObjects: 1.474678 ms  DeleteObjects: 0.227670 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000856 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.8 MB.
+System memory in use after: 166.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2500.
+Total: 1.915757 ms (FindLiveObjects: 0.208180 ms CreateObjectMapping: 0.041170 ms MarkObjects: 1.441178 ms  DeleteObjects: 0.224549 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000909 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.1 MB.
+System memory in use after: 166.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 1.957887 ms (FindLiveObjects: 0.213059 ms CreateObjectMapping: 0.041960 ms MarkObjects: 1.450139 ms  DeleteObjects: 0.252069 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7892.730868 seconds.
+  path: Assets/Prefabs/player.prefab
+  artifactKey: Guid(e152fa4c66c291f47828fc2a16d8650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/player.prefab using Guid(e152fa4c66c291f47828fc2a16d8650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e28a37fae6e1900907909bceafe7152') in 0.960576 seconds
+  Import took 0.964422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.446163 seconds.
+  path: Assets/Prefabs/Background.prefab
+  artifactKey: Guid(47d9500cbc5bc4798b774b9000da6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Background.prefab using Guid(47d9500cbc5bc4798b774b9000da6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4aafd6ccd9b9edad7de5d3e8ebb002') in 0.094239 seconds
+  Import took 0.098019 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 174.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 1.888208 ms (FindLiveObjects: 0.207270 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.460728 ms  DeleteObjects: 0.177950 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 1.944757 ms (FindLiveObjects: 0.212930 ms CreateObjectMapping: 0.041550 ms MarkObjects: 1.448948 ms  DeleteObjects: 0.240709 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1227.404335 seconds.
+  path: Assets/Sprites/baddie.png
+  artifactKey: Guid(71e2d3d26ff5a4446bd58bb10b134bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/baddie.png using Guid(71e2d3d26ff5a4446bd58bb10b134bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307dbe6044a9a7e249755b4616bdfc32') in 0.051111 seconds
+  Import took 0.054592 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000870 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 175.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 1.892968 ms (FindLiveObjects: 0.185540 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.442868 ms  DeleteObjects: 0.221220 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 1.910848 ms (FindLiveObjects: 0.195410 ms CreateObjectMapping: 0.042260 ms MarkObjects: 1.447178 ms  DeleteObjects: 0.224940 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.998294 seconds.
+  path: Assets/Sprites/baddie.png
+  artifactKey: Guid(71e2d3d26ff5a4446bd58bb10b134bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/baddie.png using Guid(71e2d3d26ff5a4446bd58bb10b134bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee8fe331ca8db350d9e868e9e70bb4') in 0.039988 seconds
+  Import took 0.043048 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001045 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 175.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 2.176488 ms (FindLiveObjects: 0.211150 ms CreateObjectMapping: 0.043580 ms MarkObjects: 1.657998 ms  DeleteObjects: 0.263020 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 175.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 1.938337 ms (FindLiveObjects: 0.187980 ms CreateObjectMapping: 0.043030 ms MarkObjects: 1.475578 ms  DeleteObjects: 0.230979 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 2.007988 ms (FindLiveObjects: 0.215650 ms CreateObjectMapping: 0.042430 ms MarkObjects: 1.500318 ms  DeleteObjects: 0.248790 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000968 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 1.928288 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.042180 ms MarkObjects: 1.448608 ms  DeleteObjects: 0.221270 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.5 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 1.938158 ms (FindLiveObjects: 0.214890 ms CreateObjectMapping: 0.042780 ms MarkObjects: 1.445578 ms  DeleteObjects: 0.234210 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.444448 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5337b359b98313213652165a94cbed7') in 0.251770 seconds
+  Import took 0.255128 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000810 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.1 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2555.
+Total: 1.948718 ms (FindLiveObjects: 0.224550 ms CreateObjectMapping: 0.042930 ms MarkObjects: 1.449288 ms  DeleteObjects: 0.231230 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.3 MB.
+System memory in use after: 181.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 1.952777 ms (FindLiveObjects: 0.195720 ms CreateObjectMapping: 0.042840 ms MarkObjects: 1.470248 ms  DeleteObjects: 0.243159 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.5 MB.
+System memory in use after: 181.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 1.946377 ms (FindLiveObjects: 0.191909 ms CreateObjectMapping: 0.042780 ms MarkObjects: 1.477488 ms  DeleteObjects: 0.233330 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.322193 seconds.
+  path: Assets/Scripts/AI.cs
+  artifactKey: Guid(a4db46c6ee36e48c2b873f0b6ec7a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI.cs using Guid(a4db46c6ee36e48c2b873f0b6ec7a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9148a67963930b48fde59f7aa22195f') in 0.005109 seconds
+  Import took 0.008000 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000941 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.7 MB.
+System memory in use after: 181.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 2.058658 ms (FindLiveObjects: 0.248980 ms CreateObjectMapping: 0.043240 ms MarkObjects: 1.488698 ms  DeleteObjects: 0.276890 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.9 MB.
+System memory in use after: 181.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 1.925197 ms (FindLiveObjects: 0.215799 ms CreateObjectMapping: 0.042230 ms MarkObjects: 1.431588 ms  DeleteObjects: 0.235000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000939 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.1 MB.
+System memory in use after: 181.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 1.962928 ms (FindLiveObjects: 0.218220 ms CreateObjectMapping: 0.042140 ms MarkObjects: 1.471868 ms  DeleteObjects: 0.230070 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000954 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.4 MB.
+System memory in use after: 182.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 1.966057 ms (FindLiveObjects: 0.219370 ms CreateObjectMapping: 0.042649 ms MarkObjects: 1.466649 ms  DeleteObjects: 0.236749 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002386 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.6 MB.
+System memory in use after: 182.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 2.206837 ms (FindLiveObjects: 0.329239 ms CreateObjectMapping: 0.047830 ms MarkObjects: 1.538778 ms  DeleteObjects: 0.290320 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.8 MB.
+System memory in use after: 182.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2588.
+Total: 2.075057 ms (FindLiveObjects: 0.226560 ms CreateObjectMapping: 0.042570 ms MarkObjects: 1.548168 ms  DeleteObjects: 0.257039 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000814 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1946 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.0 MB.
+System memory in use after: 182.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 2.378837 ms (FindLiveObjects: 0.333860 ms CreateObjectMapping: 0.046210 ms MarkObjects: 1.687138 ms  DeleteObjects: 0.310379 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57491.374575 seconds.
+  path: Assets/Scripts/ScoreKeeper.cs
+  artifactKey: Guid(95f5359328cee47c095edd024b5f6a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreKeeper.cs using Guid(95f5359328cee47c095edd024b5f6a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdc29dd8951832527b72fd95a271af2') in 0.016935 seconds
+  Import took 0.020858 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1946 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.2 MB.
+System memory in use after: 183.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2597.
+Total: 1.969538 ms (FindLiveObjects: 0.219470 ms CreateObjectMapping: 0.042480 ms MarkObjects: 1.481418 ms  DeleteObjects: 0.225540 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.728375 seconds.
+  path: Assets/Scripts/ScoreKeeperGUI.cs
+  artifactKey: Guid(686d04d55d09d4a8bb879cdf0a592250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreKeeperGUI.cs using Guid(686d04d55d09d4a8bb879cdf0a592250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7491385c01bfb6263985697740899f') in 0.006280 seconds
+  Import took 0.009772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.5 MB.
+System memory in use after: 183.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 2.821877 ms (FindLiveObjects: 0.233990 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.262877 ms  DeleteObjects: 0.281860 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 183.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 2.578687 ms (FindLiveObjects: 0.217010 ms CreateObjectMapping: 0.042440 ms MarkObjects: 1.459678 ms  DeleteObjects: 0.858869 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.9 MB.
+System memory in use after: 183.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 1.929708 ms (FindLiveObjects: 0.216330 ms CreateObjectMapping: 0.042210 ms MarkObjects: 1.432818 ms  DeleteObjects: 0.237720 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000841 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 183.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 2.057547 ms (FindLiveObjects: 0.203649 ms CreateObjectMapping: 0.043360 ms MarkObjects: 1.545958 ms  DeleteObjects: 0.263720 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.3 MB.
+System memory in use after: 184.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 1.960057 ms (FindLiveObjects: 0.222770 ms CreateObjectMapping: 0.041970 ms MarkObjects: 1.439848 ms  DeleteObjects: 0.254819 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerStay
+This message parameter has to be of type: Collider
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 1.945218 ms (FindLiveObjects: 0.220190 ms CreateObjectMapping: 0.043260 ms MarkObjects: 1.439388 ms  DeleteObjects: 0.241650 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerStay
+This message parameter has to be of type: Collider
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.7 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 1.975087 ms (FindLiveObjects: 0.225620 ms CreateObjectMapping: 0.042820 ms MarkObjects: 1.452898 ms  DeleteObjects: 0.253069 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Script error: OnTriggerStay
+This message parameter has to be of type: Collider
+The message will be ignored.
+
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 1.960347 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.042640 ms MarkObjects: 1.448688 ms  DeleteObjects: 0.244449 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 2.092037 ms (FindLiveObjects: 0.207470 ms CreateObjectMapping: 0.043350 ms MarkObjects: 1.524088 ms  DeleteObjects: 0.316399 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000854 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 1.964278 ms (FindLiveObjects: 0.223820 ms CreateObjectMapping: 0.042880 ms MarkObjects: 1.459128 ms  DeleteObjects: 0.237690 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.6 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 1.946107 ms (FindLiveObjects: 0.221899 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.454658 ms  DeleteObjects: 0.226080 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000851 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.8 MB.
+System memory in use after: 185.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 1.970237 ms (FindLiveObjects: 0.225599 ms CreateObjectMapping: 0.043090 ms MarkObjects: 1.449128 ms  DeleteObjects: 0.251730 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000937 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of DynamicLight2D.CoreUtils couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+DynamicLight2D.CoreUtils:MainPath () (at Assets/2DDL/2DLight/Core/CoreUtils.cs:22)
+DynamicLight2D.EditorUtils:getMainRelativepath () (at Assets/2DDL/2DLight/Core/Editor/EditorUtils.cs:20)
+DynamicLight2D.DynamicLightHierarchyIcon:.cctor () (at Assets/2DDL/2DLight/Core/Editor/DynamicLightHierarchyIcon.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Assets/2DDL/2DLight/Core/CoreUtils.cs line 22]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 185.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 2.024447 ms (FindLiveObjects: 0.234860 ms CreateObjectMapping: 0.044010 ms MarkObjects: 1.482328 ms  DeleteObjects: 0.262539 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106727.678788 seconds.
+  path: Assets/Scripts/AI.cs
+  artifactKey: Guid(a4db46c6ee36e48c2b873f0b6ec7a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AI.cs using Guid(a4db46c6ee36e48c2b873f0b6ec7a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3d8044b75a2b8ef6fcc81e6c9bd73e') in 0.004184 seconds
+  Import took 0.007693 seconds .
+
